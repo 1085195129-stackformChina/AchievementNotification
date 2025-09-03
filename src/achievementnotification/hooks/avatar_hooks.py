@@ -29,8 +29,8 @@ def showShotResults(func, self, shotResults):
 
     try:
         for showResult in shotResults:
-            vehicleID = showResult & 4294967295L
-            flags = showResult >> 32 & 4294967295L
+            vehicleID = showResult.vehicleID
+            flags = showResult.hitFlags
 
             onPlayerHit(vehicleID, flags)
     except:
