@@ -1,0 +1,51 @@
+{
+ "modname": "成就通知",
+ "checked": "已检查",
+ "unchecked": "未选中",
+ "defaultValue": "默认",
+ "intro.label": "配置文件信息",
+ "intro.header": "配置文件",
+ "intro.body": [
+ "也可以通过手动修改配置文件来更改配置。",
+ "配置文件位置",
+ "- [WoT游戏目录]modsconfigsAchievementNotificationconfig.json"
+],
+ "intro.note": [
+ "如需生成默认配置文件，请删除现有文件并重新启动游戏"
+],
+ "common-settings.label": "通用设置",
+ "common-settings.scale.label": "缩放比例",
+ "common-settings.scale.body": [
+ "控制整个通知小部件的缩放比例。"
+],
+ "common-settings.display-mode.label": "显示模式",
+ "common-settings.display-mode.body": [
+ "配置成就模组的显示模式",
+ "- 简洁模式 - 显示小图标、成就名称和简短描述",
+ "- 详细模式 - 显示大图标、成就名称和详细描述。"
+],
+ "common-settings.display-mode.option.compact": "简洁模式",
+ "common-settings.display-mode.option.detailed": "详细模式",
+ "common-settings.vertical-position.label": "垂直位置",
+ "common-settings.vertical-position.body": [
+ "控制成就模组的垂直位置，相对于屏幕高度",
+ "- 0.0表示顶部",
+ "- 1.0表示底部。"
+],
+ "common-settings.first-display-time.label": "首次显示时间",
+"common-settings.first-display-time.body": [
+ "控制成就应显示多长时间。",
+ "对于同时获得的多个成就，此时间仅适用于组中的第一个成就。",
+ "组中的其他成就使用连续显示时间参数。"
+],
+ "common-settings.consecutive-display-time.label": "连续显示时间",
+ "common-settings.consecutive-display-time.body": [
+ "如果同时获得多个成就，此参数控制",
+ "组中后续成就(第一个之后)应显示多长时间。"
+],
+ "achievements-settings.label": "成就设置",
+ "display-achievement.header": "显示成就",
+ "display-achievement.body": [
+ "如果选中，则在战斗期间显示此成就。"
+]
+}
